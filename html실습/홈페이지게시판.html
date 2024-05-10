@@ -5,29 +5,25 @@
     <title>홈페이지 게시판</title>
     <style>
       body {
-        margin: 0 auto;
-        text-align: center;
+        margin: 0 auto; /*형식 자동 정렬*/
+        text-align: center; /*글자 가운데 정렬*/
       }
+
       table {
-        border: 2px solid red;
+        margin: 0 auto; /*형식가운데 정렬*/
+        width: 70%; /*전체 가로의 70%차지*/
+        border: 2px solid violet; /*표테두리 색상*/
         border-collapse: collapse;
-        width: 70%;
-        
       }
-      th {
-        border: 2px solid rebeccapurple;
-        border-collapse: collapse;
-        background-color: pink;
-      }
-      tr,
-      th {
-        border: 2px solid black;
-        border-collapse: collapse;
-        border: 2px;
-        text-align: center;
-      }
+
+      th,
       td {
-        border: 2px solid palevioletred;
+        border: 2px solid violet;
+        text-align: center;
+        padding: 10px; /* 몸집키우기 상 하 좌 우*/
+      }
+      th {
+        background-color: plum /*배경색상 채우기*/ color white;
       }
     </style>
   </head>
@@ -55,8 +51,12 @@
         <td>2024-05-07</td>
       </tr>
     </table>
-    <a href="홈페이지메인.html"><img src="메인아이콘.png" /></a><br />
+    <a href="홈페이지메인.html">
+      <img src="메인아이콘.png" />메인아이콘<br
+    /></a>
     <a href="홈페이지게시판.html"><img src="게시판아이콘.png" /></a><br />
-    <a href="동영상.html" target="_blank"><img src="동영상아이콘.png" /></a>
+    <a href="동영상.html" target="_blank"
+      ><img src="동영상아이콘.png" /><br />동영상</a
+    >
   </body>
 </html>
