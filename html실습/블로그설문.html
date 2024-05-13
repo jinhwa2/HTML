@@ -1,0 +1,53 @@
+<!DOCTYPE html> <!--html 5 시작-->
+<html lang="ko"> <!--html 코딩 시작--><!--검색엔진 korean = ko-->
+    <head>  <!--웹설정 meta title style script link-->
+        <meta charset="UTF-8"> <!--한글깨짐 방지-->
+        <title>블로그 설문조사</title>
+        <style>
+            body{
+                background-color: #f0f0f0
+                margin: 0 auto;
+            }
+            .컨테이너{
+                margin: 0 auto;
+                background-color: white;
+                padding: 20px;
+                text-align: center;
+                width: 60%;
+                border-radius: 10px;
+                box-shadow: 0 0 10px #d3adad;
+               
+                
+            }
+            button {
+                background-color: #4CAF50;
+                border: none;
+                padding: 5px 20px;
+                border-radius: 5px;
+                color: wheat;
+
+
+            }
+            
+            input{
+                width: 90%;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="컨테이너">
+            <h1>블로그 설문조사</h1>
+            <div 컨테이너>
+            <form>
+                <label>
+               이름 <br><input type="text" name="user_id"></label><br>
+               <label>이메일 <br><input type="email" name="email"></label><br>
+               <label>나이<br><input type="number" name="num"></label><br>
+               <label>의견<br<<input type="text" name="commet"></label><br><br><br>
+                <button type="submit">제출</button>
+            </form>
+        </div>
+
+    </body>
+</html>

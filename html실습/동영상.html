@@ -1,38 +1,96 @@
 <!DOCTYPE html>
 <html lang="ko">
-    <head>
-        <meta charset="UTF-8">
-        <titl>동영상게시판</titl>
-        <style>
-            imag{
-                width: 50px;
-                height: 50px;
-            }
-            body{
-                margin: 0 auto;
-                text-align: center;
-            }
-            
-            icon{
-                width: 50px;
-                height: 50px;
-            }
-            image{
-                width: 50px;
-                height: 50px;
-            }
-        </style>
-    </head>
-    <body>
-        <h1>동영상게시판</h1>
-        <img src="../이미지들/lovelyMarley.jpg">
-        <a href="홈페이지게시판.html"class="icon"><img src="../이미지들/hogam.jpg"></a>
-        <a href="홈페이지메인.html" target="_blank" class="icon"><img src="../이미지들/healing.jpg"></a>
-       <br>
-        <video autoplay muted loop>
-            <source src="C:/Users/user1/frontend-workspace/html/비디오들/불멍.mp4" type="video/mp4">
-           </video><br>
-       
-   
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <titl>동영상게시판</titl>
+    <style>
+     
+      body {
+        margin: 0 auto;
+        text-align: center;
+        background-color: white;
+      }
+h1{
+    margin: 0 auto;
+}
+      icon {
+        width: 50px;
+        height: 50px;
+      }
+      video {
+        margin: 0 auto;
+        display: block;
+        width: 50px;
+        border-radius: 10px;
+      }
+       a{
+        text-align: center;
+        margin: 0 auto;
+     
+       } 
+      .버튼꾸미기 {
+        display: block;
+        text-align: center;
+        
+      }
+      .댓글확인{
+        padding: 10px;
+      }
+      .icon{
+        
+      }
+      .댓글{
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: aliceblue;
+        padding: 10px;
+      }
+      .컨테이너{
+        margin: 0 auto;
+        background-color: aliceblue;
+        width: 70%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="컨테이너">
+      <h1>동영상게시판</h1>
+      <video autoplay muted loop>
+        <source src="../비디오들/조용한방안.mp4" type="video/mp4">
+        <a href="홈페이지게시판.html" class="icon">img src="../이미지들/hogam.jpg"
+            /></a>
+     </video>
+     <div class="댓글들">
+        댓글확인
+        <p>사용자 :</p>
+        <p>멋지네요</p>
+     </div>
+     <br>
+     <div class="댓글">
+        <p>사용자 :</p>
+        <p>늠름하네요.</p>
+     </div>
+     <br>
+     <video autoplay muted loop>
+        <source src="../비디오들/불멍.mp4" type="video/mp4">
+        <a href="홈페이지메인.html" target="_blank" class="icon"><img src="../이미지들/healing.jpg"
+            /></a>
+     </video>
+     
+     <video autoplay muted loop>
+        <source src="../비디오들/방안들.mp4" type="video/mp4">
+     </video>
+     <div class="버튼꾸미기">
+        <a href="홈페이지게시판.html">
+            <img class="icon" src="../이미지들/healing.jpg"/>
+        </a>
+        <a href="홈페이지메인.html">
+            <img class="icon" src="../이미지들/hogam.jpg"/>
+
+        </a>
+     </div>
+     </div>
+
+    </div>
+  </body>
 </html>
