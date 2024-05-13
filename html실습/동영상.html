@@ -4,16 +4,16 @@
     <meta charset="UTF-8" />
     <titl>동영상게시판</titl>
     <style>
-     
+
       body {
         margin: 0 auto;
-        text-align: center;
+
         background-color: white;
       }
-h1{
-    margin: 0 auto;
-}
-      icon {
+      h1{
+        text-align: center;
+      }
+      .icon {
         width: 50px;
         height: 50px;
       }
@@ -26,19 +26,17 @@ h1{
        a{
         text-align: center;
         margin: 0 auto;
-     
-       } 
+
+       }
       .버튼꾸미기 {
         display: block;
         text-align: center;
-        
+
       }
-      .댓글확인{
+      .댓글들{
         padding: 10px;
       }
-      .icon{
-        
-      }
+
       .댓글{
         border: 1px solid black;
         border-radius: 10px;
@@ -47,7 +45,7 @@ h1{
       }
       .컨테이너{
         margin: 0 auto;
-        background-color: aliceblue;
+        background-color: white;
         width: 70%;
       }
     </style>
@@ -56,41 +54,26 @@ h1{
     <div class="컨테이너">
       <h1>동영상게시판</h1>
       <video autoplay muted loop>
-        <source src="../비디오들/조용한방안.mp4" type="video/mp4">
-        <a href="홈페이지게시판.html" class="icon">img src="../이미지들/hogam.jpg"
-            /></a>
-     </video>
-     <div class="댓글들">
+        <source src="../비디오들/조용한방안.mp4" type="video/mp4" />
+      </video>
+      <div class="댓글들">
         댓글확인
-        <p>사용자 :</p>
-        <p>멋지네요</p>
-     </div>
-     <br>
-     <div class="댓글">
-        <p>사용자 :</p>
-        <p>늠름하네요.</p>
-     </div>
-     <br>
-     <video autoplay muted loop>
-        <source src="../비디오들/불멍.mp4" type="video/mp4">
-        <a href="홈페이지메인.html" target="_blank" class="icon"><img src="../이미지들/healing.jpg"
-            /></a>
-     </video>
-     
-     <video autoplay muted loop>
-        <source src="../비디오들/방안들.mp4" type="video/mp4">
-     </video>
-     <div class="버튼꾸미기">
+        <div class="댓글">
+          <p>사용자 :</p>
+          <p>멋지네요</p>
+        </div>
+        <br />
+        <div class="댓글">
+          <p>사용자 :</p>
+          <p>늠름하네요.</p>
+        </div>
+      </div>
+      <br />
+      <div class="버튼꾸미기">
         <a href="홈페이지게시판.html">
-            <img class="icon" src="../이미지들/healing.jpg"/>
+          <img class="icon" src="../이미지들/healing.jpg" />
         </a>
-        <a href="홈페이지메인.html">
-            <img class="icon" src="../이미지들/hogam.jpg"/>
-
-        </a>
-     </div>
-     </div>
-
+      </div>
     </div>
   </body>
 </html>
