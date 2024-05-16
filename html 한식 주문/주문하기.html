@@ -3,40 +3,10 @@
   <head>
     <mata charset="UTF-8">
       <title>한식 주문하기</title>
+      <link rel="stylesheet" href="스타일.css">
       <style>
-       .헤더,.푸터{
-        background-color: #918d8d;
-        color: white;
-        padding: 20px;
-        text-align: center;
-       
-       }
-       
-       .네비게이션{
-        background-color: antiquewhite;
-        padding: 10px;
-       }
-       
-       body {
-          background-color: #f3dbdb;
-        }
-
-        .컨테이너 {
-          width: 60%;
-          background-color: rgb(221, 211, 211);
-          padding: 20px;
-          margin: 20px auto; /*auto 경우 가운데 정렬과 같은 나열을 사용할 때 쓰임*/
-          border-radius: 10px;
-          box-shadow: 0 0 10px #d7d7d7;
+      button {
           text-align: center;
-          display: block;
-        }
-        h1,
-        button {
-          text-align: center;
-        }
-
-        button {
           width: 200px;
           background-color: #555;
           color: white;
@@ -44,71 +14,41 @@
           border-radius: 5px;
           padding: 10px 20px;
         }
-        .메인이미지{
-            width: 200px;
-            height: 200px;
-            margin: 20px;
-        }
-        .옵션이미지{
-            width: 100px;
-            height: 100px;
-        }
-        .메인꾸미기{
-            display: inline;
-            text-align: center;
-            margin: 20px auto;
-        }
-        .옵션꾸미기{
-            display: flex;
-            text-align: center;
-            margin: 20px auto;
-        }
-        li{
-            display: inline;
-            text-align: center;
-
-        }
-        a{
-        text-decoration: none;/*밑 줄 제거*/
-        color: cadetblue; /*글자색 변경*/
-        font-weight: bold;  /*글자 표현 두께 변경*/
-    }
         
       </style>
     </mata>
   </head>
   <body>
     <div class="헤더">
-        <h1>KH 배달서비스 - 한식주문하기</h1>
+      <h1>KH 배달서비스 - 한식주문하기</h1>
     </div>
     <div class="네비게이션">
-        <ul>
-            <li>홈<li>
-            <li>주문하기</li>
-        </ul>
+      <ul>
+        <li>홈</li>
+        <li></li>
+        <li>주문하기</li>
+      </ul>
     </div>
-    <div class="컨테이너">
-       
+    <div class="메인-주문하기">
       <h1>한식 주문하기</h1>
       <form>
         <div class="메인꾸미기">
-            <label>메뉴선택:</label><br>
-         <div>
-            
-            <img class="메인이미지" src="음식이미지/된장찌개.PNG">
-            <br>
+          <label>메뉴선택:</label><br />
+          <div>
+            <img class="메인이미지" src="음식이미지/된장찌개.PNG" />
+            <br />
             <input type="radio" />된장찌개
-        </div>
-        <div>
-            <img class="메인이미지" src="음식이미지/비빔밥.PNG">
-            <br>
+          </div>
+          <div>
+            <img class="메인이미지" src="음식이미지/비빔밥.PNG" />
+            <br />
             <input type="radio" />비빔밥
-        </div>
-        <div>
-            <img class="메인이미지" src="음식이미지/불고기.PNG">
-            <br>
+          </div>
+          <div>
+            <img class="메인이미지" src="음식이미지/불고기.PNG" />
+            <br />
             <input type="radio" />불고기
-        </div>
+          </div>
         </div>
         <div>
           <label>맛 선택:</label>
@@ -122,20 +62,19 @@
           <label>추가옵션:</label>
           <div>
             <img class="옵션이미지" src="음식이미지/계란.PNG" />
-            <br>
+            <br />
             <input type="checkbox" />계란
-        </div>
-        <div>
+          </div>
+          <div>
             <img class="옵션이미지" src="음식이미지/두부.PNG" />
-            <br>
+            <br />
             <input type="checkbox" />두부
-        </div>
-        <div>
+          </div>
+          <div>
             <img class="옵션이미지" src="음식이미지/김치.PNG" />
-            <br>
+            <br />
             <input type="checkbox" />김치
-        </div>
-          
+          </div>
         </div>
         <div>
           <label>배달주소: </label>
@@ -145,8 +84,6 @@
         <button>주문하기</button>
       </form>
     </div>
-    <div class="푸터">
-        &copy; 2024 한식주문하기 All right reserved
-    </div>
+    <div class="푸터">&copy; 2024 한식주문하기 All right reserved</div>
   </body>
 </html>
