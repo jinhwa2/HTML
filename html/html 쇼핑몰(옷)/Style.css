@@ -11,9 +11,19 @@ body{
   background-color: rgb(210, 238, 238);
 }
 
+button{
+  background-color: #4bcffa;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
 .네비게이션{
   background-color: #ff6b81;
   margin-top: -20px;
+  text-align: center;
 }
 .네비게이션 ul{
   list-style-type: none;
@@ -22,6 +32,11 @@ body{
 .네비게이션 li{
  display: inline;
  margin-right: 20px;
+}
+.네비게이션 ul li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 
