@@ -37,6 +37,7 @@
          display: block;
          /*한 section이 끝날 때마다 밑으로 간격을 20px 준 것*/
          margin-bottom: 20px;
+         margin-top: -300px;
        }
 
        .소개클래스 .블록 {
@@ -121,11 +122,36 @@
         text-align: center;
         margin-bottom: 500px;
        }
+       .픽스된지역{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        background-color: white;
+       }
+       .센터{
+        border-radius: 50%;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+       }
+       a {
+        text-decoration: none;
+        border-radius: 50%;
+        line-height: 35px;
+        user-select: none;
+        color: black;
+       }
     </style>
   </head>
   <body>
     <header>
-      <h1>회사소개</h1>
+      <h1 id="top">회사소개</h1>
     </header>
     <nav>
       <a href="#">회사소개</a>
@@ -178,6 +204,13 @@
     </main>
     <footer>
       <p>&copy; 2024 KH쇼핑몰. All right reserved.</p>
-    </footer>
+    </footer><div class="컨테이너2">
+      <div class="센터"></div>
+
+    </div>
+    <br><br><br><br><br><br><br> <br><br><br><br><br><br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br> <br><br><br><br><br><br><br> <br><br><br><br><br><br><br> <br><br><br><br><br><br><br> <br><br><br><br><br><br><br> <br><br><br><br><br><br><br> <br><br><br><br><br><br><br> <br><br><br><br><br><br><br> <br><br><br><br><br><br><br> <br><br><br><br><br><br><br> <br><br><br><br><br><br><br> <br><br><br><br><br><br><br> <br><br><br><br><br><br><br> <br><br><br><br><br><br><br> <br><br><br><br><br><br><br> <br><br><br><br><br><br><br> <br><br><br><br><br><br><br> <br><br><br><br><br><br><br> <br><br><br><br><br><br><br>
+    <div class="픽스된지역">
+      <a href="#TOP">TOP</a>
+    </div>
   </body>
 </html>
