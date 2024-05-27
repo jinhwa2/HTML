@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <title>실습문제6-1</title>
+    <style>
+      body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+         padding: 0;
+      }
+      header, footer {
+         background-color: aliceblue;
+         text-align: center;
+         padding: 20px;
+         
+       }
+       nav {
+         background-color: aliceblue;
+         padding: 20px;
+         text-align: center;
+       }
+
+       nav a {
+         text-decoration: none;
+         color: black;
+       }
+
+       main {
+         width: 80%;
+         margin: 20px auto;
+       }
+
+       .소개클래스{
+        display: block;
+       }
+      .픽스된지역{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        background-color: black;
+      }
+      a {
+        width: 100%;
+        height: 100%;
+        
+        border-radius: 50%;
+        text-align: center;
+        color: white
+        
+      }
+      .소개클래스 .블록 {
+         border: 2px solid #ccc;
+         margin-bottom: 20px;
+         padding: 50px;
+       }
+       .블록{
+        box-shadow: 2px 2px 5px 0;
+       }
+       input{
+        width: 100%;
+       }
+       button{
+        width: 100%;
+        background-color: black;
+        color: white;
+        border-radius: 3px;
+       }
+       .옵션{
+        width: 100%;
+       }
+       .테라{
+        width: 100%;
+       }
+       label{
+        font-weight: bold;
+       }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 id="top">문의하기</h1>
+    </header>
+    <nav>
+      <a href="#">회사소개</a>&nbsp;
+      <a href="#">팀소개</a>&nbsp;
+      <a href="#">문의하기</a>&nbsp;
+    </nav>
+    <main>
+      <section class="소개클래스">
+        <div class="블록">
+          <h2>문의 사항을 남겨주세요</h2>
+          <label>문의분류</label><br>
+          <select class="옵션">
+            <option>선택해주세요</option>
+            <option>선택해주세요</option>
+            <option>선택해주세요</option>
+          </select><br>
+          <label>이름</label><br>
+          <input type="text" ><br>
+          <label>이메일</label><br>
+          <input type="email"><br>
+          <label>메시지</label><br>
+          <textarea class="테라" rows="15" cols="60"></textarea><br>
+          <br><button>보내기</button>
+        </main>
+          
+          
+          <footer>
+            <p>&copy; 2024 KH쇼핑몰. All right reserved.</p>
+          </footer>
+          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="픽스된지역">
+          <a href="#TOP">&#9742;</a>
+        </div>
+        </div>
+      </section>
+    
+
+  </body>
+</html>
